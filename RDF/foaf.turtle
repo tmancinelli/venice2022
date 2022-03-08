@@ -1,0 +1,26 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbroo: <https://www.cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://tmancinelli.github.io/venice2022/RDF/foaf.tutle>
+   a foaf:PersonalProfileDocument ;
+   foaf:maker <hhttps://tmancinelli.github.io/venice2022/RDF/foaf.turtle#me> ;
+   foaf:primaryTopic <http://viaf.org/viaf/49275800> .
+
+<https://tmancinelli.github.io/venice2022/RDF/foaf.turtle#me>
+   a foaf:Person ;
+   foaf:name "Tiziana Mancinelli" ;
+   foaf:workInfoHomepage <http://tmancinelli.github.io/> .
+
+   
+<http://viaf.org/viaf/49275800>
+  foaf:birthday "1597-09-23" ;
+
+  foaf:familyName "Barberino", "Barbarinus", "Barberinus", "Barberini" ;
+  foaf:givenName "Francesco, Cardinal", "Cardinale Francesco", "Francesco,", "Franciscus", "Francisco", "Francesco", "Francesco, Cardinale" ;
+  foaf:name "Francesco Barberini il Vecchio", "Francesco Barberini"@pt-PT, "Francesco Barberini"@nl-NL, "Francesco Barberini"@cs-CZ, "Francesco Barberini"@pt-BR, "Francesco Barberini"@et-EE, "Francesco Barberini"@it-IT, "Francesco Barberini"@fr-FR, "Francesco Barberini"@lt-LT, "Francesco Barberini"@fr-CH, "Francesco Barberini"@pl-PL, "Francesco Barberini"@de-DE, "Francesco Barberini"@en, "Francesco Barberini"@it-VA, "Francesco Barberini"@en-US, "Francesco Barberini"@en-AU, "Francesco Barberini", "Francesco Barberini"@fr-CA, "Cardinale Francesco Barberini"@en-US ;
+  foaf:made <https://digi.vatlib.it/iiif/MSS_Barb.lat.4076/manifest.json> .
+
+<https://digi.vatlib.it/iiif/MSS_Barb.lat.4076/manifest.json>
+    a frbroo:F4_Manifestation_Singleton ;
+    dc:title "Documenta amoris"@lat .
