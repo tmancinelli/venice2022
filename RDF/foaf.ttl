@@ -4,10 +4,10 @@
 
 <https://tmancinelli.github.io/venice2022/RDF/foaf.tutle>
    a foaf:PersonalProfileDocument ;
-   foaf:maker <hhttps://tmancinelli.github.io/venice2022/RDF/foaf.turtle#me> ;
+   foaf:maker <hhttps://tmancinelli.github.io/venice2022/RDF/foaf.ttl#me> ;
    foaf:primaryTopic <http://viaf.org/viaf/49275800> .
 
-<https://tmancinelli.github.io/venice2022/RDF/foaf.turtle#me>
+<https://tmancinelli.github.io/venice2022/RDF/foaf.ttl#me>
    a foaf:Person ;
    foaf:name "Tiziana Mancinelli" ;
    foaf:workInfoHomepage <http://tmancinelli.github.io/> .
