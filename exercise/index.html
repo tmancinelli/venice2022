@@ -60,20 +60,18 @@
 
     <!-- About -->
     <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Web Page and IIIF</h1>
-                    <h4>TO DO</h4>
-                    <h4>Exercise</h4>
-                    <ol>
-                        <li>Compare the two manuscripts:  - <a href="https://digi.vatlib.it/view/MSS_Barb.lat.4076">Barb. Lat. 4076</a> and <a href="https://digi.vatlib.it/view/MSS_Barb.lat.4076">Barb. Lat. 4077</a></li>
-                        <li>Use <a href="https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://ids.lib.harvard.edu/ids/iiif/25286607">IIIF Image Manipulation Tool:</a> to take only the virtues in the first folio</li>
-                        <li>create a HTML page with the areas of the manuscripts</li>
-                        
-                </div>
-            </div>
-        </div>
+         <div class="container">
+             <img id="img" src="https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2/full/800,609/0/default.jpg">
+
+             <nav class="breadcrumb" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="#" onclick="document.getElementById('img').src=this.dataset.img" data-img="https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2/full/800,609/0/default.jpg">Intera</a></li>
+                <li><a href="#" onclick="document.getElementById('img').src=this.dataset.img" data-img="https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2/1800,0,2000,5000/400,616/0/default.jpg">Pagina</a></li>
+                <li><a href="#" onclick="document.getElementById('img').src=this.dataset.img" data-img="https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2/2400,200,800,800/616,616/0/default.jpg">Dettaglio</a></li>
+      </ul>
+    </nav>
+
+    </div>
     </section>
                 </div>
             </div>
